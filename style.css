@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: black;
+    height: 60px;
+}
+.brand img{
+    height: 60px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style: none;
+    font-family : 'Baloo Bhai 2', 'cursive';
+}
+nav ul li{
+    padding: 0px 20px;
+    font-size: large;
+}
+
+.container{
+    height: 65vh;
+    background-color: rgb(21 171 71);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 20px;
+    background: url('bg.jpg') no-repeat center center/cover;
+}
+.songbanner{
+    margin-top: 20px;
+}
+.songitems{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: space-between;
+    background-color: white;
+    color: black;
+    width: 40%;
+    border-radius: 34px;
+}
+.songitems img{
+    height: 35px;
+    border-radius: 34px;
+}
+.songitems span{
+    /* font-size: large; */
+    font-weight: bold;
+}
+.songitems .time{
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: rgb(21 171 71);
+    position: sticky;
+    height: 100px;
+    bottom: 0;
+}
+.bottom i{
+    padding: 5px;
+    cursor: pointer;
+}
+.bottom #progressbar{
+    width: 50vw;
+    padding: 10px;
+    cursor: pointer;
+}
+.songgif{
+    top: 45px;
+    left: 25vw;
+    position: absolute;
+}
+.songgif{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+footer {
+    background-color: black;
+    color: rgb(21 171 71);
+    height: 50px;
+    display: flex;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+}
